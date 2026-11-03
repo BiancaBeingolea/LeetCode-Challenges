@@ -4,4 +4,3 @@ select
     round(avg(rating < 3) * 100, 2) as poor_query_percentage
 from queries
 group by query_name;
-# where query_name is not null
