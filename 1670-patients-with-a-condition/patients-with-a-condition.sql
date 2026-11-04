@@ -3,5 +3,5 @@ select
     patient_name,
     conditions 
 from patients
-WHERE conditions LIKE 'DIAB1%' 
-   OR conditions LIKE '% DIAB1%';
+where conditions like 'DIAB1%' 
+   or conditions like '% DIAB1%';
