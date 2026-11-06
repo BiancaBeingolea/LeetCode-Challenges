@@ -1,3 +1,4 @@
+# basically full machine sum divided by processes by that machine
 select
     machine_id,
     round(sum(case
